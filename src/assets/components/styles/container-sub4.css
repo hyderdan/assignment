@@ -1,0 +1,21 @@
+.text3-sub{
+    width: 100%;
+    background-color: hwb(24 89% 0%);
+    padding: 1px 1px ;
+    border-radius: 12px;
+}
+.text3-sub P{
+    padding: -2px -2px 1px ;
+    padding-left: 10px;
+}
+.text3-subb{
+    background-color: #FFFFFF;
+    font-weight: 100;
+    border-radius: 5px;
+}
+.text3-sub2{
+    margin-left: -15px;
+}
+.text3-sub2b{
+    color: #8fc0f0;
+}

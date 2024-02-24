@@ -1,0 +1,110 @@
+.related-deals{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+}
+.related-dealheading{
+    font-size: 32px;
+    font-size: 400;
+    line-height: 44px;
+    color: #2C384A ;
+    margin-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.deal-1{
+    /* background-color: red; */
+    margin-top: 50px;
+    width: 30%;
+    justify-content: center;
+    margin-left: 0px;
+    transition: all 0.4s ease;
+}
+.deal-1 img{
+    margin-left: 45px;
+}
+.deal-1p{
+    color: rgb(159, 159, 233);
+    font-size: 13px;
+    border-radius: 5px;
+   margin-left: 45px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.deal-1 h4{
+    
+    color: rgb(159, 159, 233);
+    font-size: 13px;
+    border-radius: 5px;
+   margin-left: 110px;
+   margin-top: -33px;
+   font-weight: 400;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.deal-1 h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 130px;
+}
+.deal-1des{
+    margin-left: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #464e56  ;
+}
+.deal-1 h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #5C6874;
+    margin-left: 40px;
+}
+.deal-1 button{
+        width: 292px;
+        height: 48px;
+        border-radius: 12px;
+        margin-left: 40px;
+        border: none;
+        background-color: #1B88F4;
+        font-size: 16px;
+        columns: #FFFFFF;
+}
+.deal-priceoff{
+    position: absolute;
+    /* background-color: red; */
+    margin-left: 105px;
+    margin-top: -40px;
+    
+}
+.price-off20{
+    position: absolute;
+    /* background-color: red; */
+    color: red;
+    font-size: 13px;
+    margin-left: 160px;
+    margin-top: -38px;
+}
+@media(width<1254px){
+    .related-deals{
+        flex-direction: column;
+    }
+}
+@media(width<865px){
+    .deal-1{
+        margin-left: -30px;
+    }
+}
+@media(width<647px){
+.deal-1{
+    margin-left: -190px;
+}
+}
